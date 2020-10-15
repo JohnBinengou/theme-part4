@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails des produits</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{background-color: rgb(255, 254, 246);}
+    </style>
+</head>
+<body>
+     <!----------------------------------------------------  HEADER ------------------------------------------------------>
+    <a href="panier.html"> <button style="float: right; margin-right: 30px ; margin-top: 30px ; ">  <i style="color: rgb(199, 126, 126) ; font-size: 24px; float: right;" class="fa fa-shopping-cart">1</i> </button> </a>
+     <div style="height: 100px; width: 100px; border: 1px solid #000; margin-left: 30px;">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Accueil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="catalogue.html">Catalogue</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactez-nous</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-------------------------------------------------  DEAL OF THE MONTH ------------------------------------------------------>
+
+
+      <div style="height: 50px;"></div>
+  
+      <div class="container">
+          
+          <div class="row mt-4">
+              <div class="col-lg-1 text-center">
+                  <ul class="nav nav-tabs row text-center pro-details" id="myTab" role="tablist">
+                      <li class="nav-item col-lg-12 mb-2">
+                          <img class="img-fluid active h-100" src="img/image1.jpg"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"/>
+                      </li>
+                      <li class="nav-item col-lg-12 mb-2">
+                          <img class="img-fluid h-100" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" src="img/image1.jpg" />
+                      </li>
+                      <li class="nav-item col-lg-12 mb-2">
+                          <div style="height:50px">
+                              <img class="img-fluid h-100" src="img/image2.jpg" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"/>
+                          </div>
+                      </li>
+                      <li class="nav-item col-lg-12 mb-2">
+                          <img class="img-fluid h-100" src="img/image3.jpg" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="false"/>
+                      </li>
+                      <li class="nav-item col-lg-12 mb-2">
+                          <img class="img-fluid h-100" src="img/image4.jpg" id="productTwo-tab" data-toggle="tab" href="#productTwo" role="tab" aria-controls="productTwo" aria-selected="false"/>
+                      </li>
+                      <li class="nav-item col-lg-12 mb-2">
+                          <img class="img-fluid h-100" src="img/image5.jpg" id="productThree-tab" data-toggle="tab" href="#productThree" role="tab" aria-controls="productThree" aria-selected="false"/>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-4 text-center border-right border-secondery">
+                  <div class="tab-content row h-100 d-flex justify-content-center align-items-center" id="myTabContent">
+                      <div class="tab-pane fade show active col-lg-12" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <img class="img-fluid" src="img/image1.jpg" />
+                      </div>
+                      <div class="tab-pane fade col-lg-12" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                          <img class="img-fluid" src="img/image1.jpg" />
+                      </div>
+                      <div class="tab-pane fade col-lg-12" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                          <img class="img-fluid" src="img/image6.jpg" />
+                      </div>
+                      <div class="tab-pane fade col-lg-12" id="product" role="tabpanel" aria-labelledby="product-tab">
+                          <img class="img-fluid" src="img/image1.jpg" />
+                      </div>
+                      <div class="tab-pane fade col-lg-12" id="productTwo" role="tabpanel" aria-labelledby="productTwo-tab">
+                          <img class="img-fluid" src="img/image2.jpg" />
+                      </div>
+                      <div class="tab-pane fade col-lg-12" id="productThree" role="tabpanel" aria-labelledby="productThree-tab">
+                          <img class="img-fluid" src="img/image3.jpg" />
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="col-lg-6 col-md-6" >
+                    <h3>PRODUCT'S NAME</h3>
+                    <div style="height: 30px;"></div>
+                    <h3>Prix : 5000 FCFA</h3>
+                    <div style="height: 20px;"></div>
+                    <div> <strong>Situation du stock : </strong> En stock </div>
+                    <div> <strong>Poids : </strong> 0.5kg</div>
+                    <div style="height: 30px;"></div>
+                    <div>Quantité</div>
+                    <div> <input type="number"> </div>
+                    <div style="height: 30px;"></div>
+                    <a href="panier.html"> <div> <input type="button" class="btn btn-primary" value="Ajouter au panier"> </div> </a>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+          </div>
+      </div>
+  
+      <div style="height: 30px;"></div>
+  
+      <!-----------------------------------------------------  FOOTER ------------------------------------------------------>
+
+    <div style="height: 50px;"></div>
+
+    <div style="height: 20px ;"></div>
+    <hr>
+    <footer style="height: 50px ; background-color:  ; ">
+      <div  style="text-align : center ;">
+      <ul class="tt-socail">
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
+              
+      <div style="text-align : center ;">Copyright & 2020 .</div>
+        
+    </footer>
+
+
+
+    <script src="bootstrap-4.4.1/js/jquery.min.js" ></script>
+    <script src="bootstrap-4.4.1/js/popper.min.js" ></script>
+    <script src="bootstrap-4.4.1/js/bootstrap.min.js" ></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
